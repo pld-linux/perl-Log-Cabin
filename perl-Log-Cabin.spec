@@ -9,7 +9,7 @@ Summary:	Log::Cabin - Partial implementation of Log::Log4perl with reduced disk 
 #Summary(pl):	
 Name:		perl-Log-Cabin
 Version:	0.05
-Release:	0.2
+Release:	0.3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -60,4 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorlib}/Log/*.pm
 %{perl_vendorlib}/Log/Cabin
+%{perl_vendorlib}/auto/Log/Cabin/autosplit.ix
+%{perl_vendorlib}/auto/Log/Cabin/Foundation/autosplit.ix
 %{_mandir}/man3/*
