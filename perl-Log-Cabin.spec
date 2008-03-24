@@ -69,6 +69,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorlib}/Log/*.pm
 %{perl_vendorlib}/Log/Cabin
+%dir %{perl_vendorlib}/auto/Log/Cabin
 %{perl_vendorlib}/auto/Log/Cabin/autosplit.ix
+%dir %{perl_vendorlib}/auto/Log/Cabin/Foundation
 %{perl_vendorlib}/auto/Log/Cabin/Foundation/autosplit.ix
 %{_mandir}/man3/*
