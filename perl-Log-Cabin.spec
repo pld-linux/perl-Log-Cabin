@@ -8,12 +8,12 @@
 Summary:	Log::Cabin - Partial implementation of Log::Log4perl with reduced disk IO
 Summary(pl.UTF-8):	Log::Cabin - częściowa implementacja Log::Log4perl z ograniczonym dyskowym I/O
 Name:		perl-Log-Cabin
-Version:	0.05
-Release:	0.3
+Version:	0.06
+Release:	0.1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Log/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	245dc55397b6bee8e72138daffd53fe9
+# Source0-md5:	ec67b8a649c06969a274df33fa77dc68
 URL:		http://search.cpan.org/dist/Log-Cabin/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
