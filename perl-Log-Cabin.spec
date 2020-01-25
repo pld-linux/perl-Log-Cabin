@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Cabin
 Summary:	Log::Cabin - Partial implementation of Log::Log4perl with reduced disk IO
